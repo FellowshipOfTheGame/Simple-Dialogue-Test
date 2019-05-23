@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea053bf2d331714f99cf25e649b0daf, type: 3}
+  m_Name: NewDialogue
+  m_EditorClassIdentifier: 
+  lines:
+    array:
+    - title: 
+      text: 'Hey!
+
+        You just started a dialogue, press ''Next Line'' to continue'
+    - title: 
+      text: You pressed 'Next Line' and this is the new line, keep pressing until
+        the end
+    - title: 
+      text: You may end it earlier, by pressing 'End Dialogue'
+    - title: 
+      text: You havent ended it, but this is the last line, bye!
